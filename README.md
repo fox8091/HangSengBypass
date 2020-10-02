@@ -7,6 +7,9 @@ This works by patching the function isJailbroken() to always return 0 (not jailb
 
 ## Building
 
+This package requires [theos](https://github.com/theos/theos) to work.
+Please install it using the instructions [here](https://github.com/theos/theos/wiki/Installation)
+
 To build a debug package, simply run `make package`.
 
 To build a package for release on a repository, run `make package FINALPACKAGE=1`.
