@@ -8,6 +8,7 @@ This works by patching the function isJailbroken() to always return 0 (not jailb
 ## Building
 
 To build a debug package, simply run `make package`.
+
 To build a package for release on a repository, run `make package FINALPACKAGE=1`.
 
 To install this tweak on your jailbroken iOS device as part of the build process,
